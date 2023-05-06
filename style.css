@@ -7,6 +7,24 @@
 a.nav-link.active{
     margin-right: 295px;
 }
+/*
+.img-fluid{
+  width: 100%;
+  height: auto;
+}
+*/
+/*
+.img-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+*/
+.form,.img-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .fijado{
     position: absolute;
@@ -18,6 +36,25 @@ a.nav-link.active{
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 10%;
+}
+
+.btn-success{
+  background-color:  #29a643;
+}
+
+.foot{
+  letter-spacing: -1px;
+  width: 80%;/*o lo necesario*/
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+footer a{
+  text-decoration: none;
 }
 
 .fijado h2{
@@ -116,7 +153,10 @@ a.nav-link.active{
   }
 
   .botonenviar {
+    /*
     background-color: #44b414;
+    */
+    background-color: #96c93e;
     border: none;
     box-shadow: none;
     outline:none;
