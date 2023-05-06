@@ -40,6 +40,11 @@ a.nav-link.active{
 
 .btn-success{
   background-color:  #29a643;
+  font-size: 80%;
+}
+
+.btn-outline-light{
+  font-size: 80%;
 }
 
 .foot{
